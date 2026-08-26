@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f5;
+    color: #222;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+.logo-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #ff6b00;
+    color: white;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+.logo-text {
+    text-align: left;
+}
+.logo-text h1 {
+    margin: 0;
+    color: #1f1f1f;
+    font-size: 28px;
+}
+.logo-text span {
+    color: #888;
+    font-size: 11px;
+}
+
+.calc {
+    background-color: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    text-align: left;
+    border: 1px solid #e2e2e2;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+input,
+select {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #f8f8f8;
+}
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #ff6b00;
+    background-color: white;
+}
+button {
+    width: 100%;
+    padding: 13px;
+    background-color: #ff6b00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover {
+    background-color: #e85f00;
+    transform: translateY(-2px);
+}
+
+.result {
+    margin-top: 25px;
+    display: flex;
+    gap: 12px;
+}
+.result {
+    flex: 1;
+    padding: 18px;
+    background-color: #fff7f0;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #ffe0c7;
+}
+.result span {
+    display: block;
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+.result strong {
+    color: #ff6b00;
+    font-size: 18px;
+}
