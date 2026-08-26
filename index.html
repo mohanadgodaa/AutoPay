@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoPay</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <div class="logo-icon">A</div>
+
+            <div class="logo-text">
+                <h1>AutoPay</h1>
+               
+            </div>
+        </div>
+
+
+        <div class="Calc">
+            <label for="Type">Car Type</label>
+            <input type="text" id="Type" placeholder="Enter Car Type">
+
+            <label for="Model">Car Model</label>
+            <input type="text" id="Model" placeholder="Enter Car Model">
+            
+            <label for="Price">Car Price</label>
+            <input type="number" id="Price" placeholder="Enter Car Price">
+            
+            <label for="Down Payment">Down Payment</label>
+            <input type="number" id="Down Payment" placeholder="Enter Down Payment">
+            
+            <label for="period">Installment Period</label>
+            <select id="period">
+                <option value="">Select period</option>
+                <option>1 Year</option>
+                <option>2 Years</option>
+                <option>3 Years</option>
+                <option>4 Years</option>
+                <option>5 Years</option>
+            </select>
+
+             <button>Calculate</button>
+
+             <div class="result">
+                <span>Monthly Installment</span>
+                    <strong>99,999 EGP</strong>
+                <span>Interest Rate</span>
+                    <strong>100%</strong>
+             </div>
+
+        </div>
+    </div>
+</body>
+</html>
